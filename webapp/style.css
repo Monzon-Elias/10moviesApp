@@ -10,7 +10,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: gray;
+  background-color: rgb(36, 107, 179);
   opacity: .95;
   border-bottom: 2px solid black;
 }
