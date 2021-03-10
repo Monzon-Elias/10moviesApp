@@ -21,7 +21,7 @@ export async function getMovies() {
 export function displayMovies(movies) {
   const listMovies = document.getElementById("listMovies");
   //taking only 10 elements
-  movies = movies.results.slice(0, 10);
+  movies = movies.results;
   let newArray = movies.map((item) => {
     if (!item.poster_path) {
       return `
