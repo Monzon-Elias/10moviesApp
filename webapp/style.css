@@ -4,7 +4,7 @@ body {
 }
 header {
   font-family: 'Gochi Hand', cursive;
-  font-size: x-large;
+  font-size:large;
   text-align: center;
   color: orange;
   position: fixed;
@@ -28,7 +28,7 @@ button:active {background-color: #3e8e41}
 
 #listMovies {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   margin-top: 7rem;
 }
 .card {
